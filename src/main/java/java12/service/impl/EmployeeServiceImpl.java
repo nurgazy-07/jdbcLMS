@@ -38,21 +38,21 @@ public class EmployeeServiceImpl implements EmployeeDao {
 
     @Override
     public List<Employee> getAllEmployees() {
-        return null;
+      return emploeyyDao.getAllEmployees();
     }
 
     @Override
     public Employee findByEmail(String email) {
-        return null;
+      return emploeyyDao.findByEmail(email);
     }
 
     @Override
     public Map<Employee, Job> getEmployeeById(Long employeeId) {
-        return null;
+        return emploeyyDao.getEmployeeById(employeeId);
     }
 
     @Override
     public List<Employee> getEmployeeByPosition(String position) {
-        return null;
+       return emploeyyDao.getEmployeeByPosition(position);
     }
 }

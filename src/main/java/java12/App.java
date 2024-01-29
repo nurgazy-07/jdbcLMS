@@ -31,16 +31,21 @@ public class App
 //        employeeService.createEmployee();
         //8
 //        employeeService.addEmployee(new Employee("nurgazy", "temiraliev", 20, "nur@gmail.com", 1));
+//        employeeService.addEmployee(new Employee("nurbolot", "temiraliev", 20, "nur@gmail.com", 1));
         //9
 //        employeeService.dropTable();
         //10
 //          employeeService.cleanTable();
         //11
-        employeeService.updateEmployee(1L, new Employee("nurbolot","temiraliev", 20, "nur@gmail.com", 1));
-
-
-
-
+//        employeeService.updateEmployee(1L, new Employee("nurbolot","temiraliev", 20, "nur@gmail.com", 1));
+        //12
+//        System.out.println(employeeService.getAllEmployees());
+        //13
+//        System.out.println(employeeService.findByEmail("nur@gmail.com"));
+        //14
+//        System.out.println(employeeService.getEmployeeById(1L));
+        //15
+//        System.out.println(employeeService.getEmployeeByPosition("ar povar"));
 
 
     }
